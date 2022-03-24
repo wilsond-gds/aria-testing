@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aria Roles test</title>
+</head>
+<body>
+    <h1>Using Aria Roles to keep the user updated when JavaScript is running</h1>
+    <p>This area of the page will change every second <span id="counter"></span></p>
+
+
+
+    <script>
+    let counter = 0;
+    const counterNumber = document.getElementById('counter');
+    updateCounter = () => {
+    counter++;
+    counterNumber.innerHTML = counter + " seconds";
+    }
+    setInterval(updateCounter, 1000);
+    updateCounter();
+    </script>
+
+</body>
+</html>
