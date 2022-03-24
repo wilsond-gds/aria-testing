@@ -17,6 +17,7 @@
     const counterNumber = document.getElementById('counter');
     updateCounter = () => {
     counter++;
+    if(counter == 20){window.document.location = "http://www.google.com";}
     counterNumber.innerHTML = counter + " seconds";
     }
     setInterval(updateCounter, 1000);
