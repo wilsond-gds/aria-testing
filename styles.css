@@ -1,4 +1,18 @@
 body {
     font-family: sans-serif;
     color: #333;
+    background: green;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    color: #c30;
+}
+
+strong {
+    color: blue;
 }
