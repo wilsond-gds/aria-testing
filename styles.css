@@ -2,3 +2,13 @@ body {
     font-family: sans-serif;
     color: #333;
 }
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    text-decoration: underline;
+    color: #c30;
+}
