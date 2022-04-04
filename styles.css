@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
     color: #333;
+    border-radius: 50%;
+    background: green;
 }
 
 p {
@@ -11,4 +13,8 @@ p {
 em {
     text-decoration: underline;
     color: #c30;
+}
+
+strong {
+    color: skyblue;
 }
